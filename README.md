@@ -21,39 +21,6 @@ A responsive AI-powered chat application built with React and Tailwind CSS, inte
 | Gemini API (Interactions API) | AI chat responses |
 | react-markdown | Rendering formatted AI responses |
 
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repo-url>
-cd chatmate
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Set up environment variables
-
-Create a `.env` file in the project root and add your Gemini API key:
-
-```
-VITE_AI_KEY=your_gemini_api_key_here
-```
-
-Get a free API key from [Google AI Studio](https://aistudio.google.com/apikey).
-
-### 4. Run the development server
-
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:5173` (or whichever port Vite assigns).
-
 ## Project Structure
 
 ```
