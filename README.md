@@ -43,11 +43,6 @@ chatmate/
 4. While waiting, a typing indicator (`...`) is shown
 5. Once the AI responds, its reply is added as a chat bubble and rendered with Markdown formatting
 
-## Notes
-
-- This app calls the Gemini API directly from the frontend, which exposes the API key in the browser. This is fine for learning/personal projects, but for production apps, route the API call through a backend server to keep the key secure.
-- Free tier rate limits apply (requests per minute/day) — see [Gemini API rate limits](https://ai.google.dev/gemini-api/docs/rate-limits) for details.
-
 ## License
 
 This project is open source and available for personal and educational use.
